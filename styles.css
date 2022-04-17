@@ -84,16 +84,19 @@ h4 {
   position: absolute;
   left: 55%;
   display: inline-block;
+  width: 400px;
 }
 
 /* About section */
 
 .about {
+  /* background: #191919; */
   width: 100%;
   padding: 100px 0px;
   position: absolute;
+  margin: 50px auto;
   top: 70%;
-  right: 10%;
+  right: 2%;
 }
 .about img {
   background-color: #191919;
@@ -113,7 +116,7 @@ h4 {
   justify-content: space-around;
 }
 .about-text h2 {
-  color: white;
+  color: #1010c6;
   font-size: 60px;
   text-transform: capitalize;
   margin-bottom: 20px;
@@ -125,8 +128,11 @@ h4 {
   margin-bottom: 25px;
   text-transform: capitalize;
 }
+.about-text h5 span{
+  color: #1010c6;
+}
 .about-text p {
-  color: #fcfc;
+  color: #ffffff;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
@@ -147,22 +153,71 @@ button:hover {
   border: 2px solid #1010c6;
   cursor: pointer;
 }
-/* .shape{
-  color: #1010c6;
-} */
 
-/* .images{
-  width: 45px;
-  height: 80%;
+
+/* service section */
+
+.service {
+  width: 100%;
+  padding: 80px 0;
   position: absolute;
-  bottom: 35%;
-  right: 40%;
+  margin: 50px auto;
+  top: 160%;
 }
-.images img{
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  transition: bottom 1s, left 1s ;
-} */
+.title h2{
+  color: #1010c6;
+  font-size: 60px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 420px;
+}
+.card{
+  height: 385px;
+  width: 355px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #1010c6;
+}
+h5{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.para p{
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .button{
+  background-color: #1010c6;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.card .button:hover{
+  background-color: transparent;
+  border: 2px solid #1010c6;
+  cursor: pointer;
+}
